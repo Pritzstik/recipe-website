@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    color: var(--black);
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+    transition: .2s linear !important;
+
+}
+
+.contain{
+    top:  0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
+}
+
+.contain .bg-white{
+    flex: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bg-light{
+    display: flex;
+    justify-content: center;
+    max-width: 20rem;
+}
+
+.bg-white .carousel{
+    margin: 1rem 2rem;
+}
+
+.bg-white .carouse .carousel{
+    max-height: 20%;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.image-container img{
+    height: 10rem;
+}
